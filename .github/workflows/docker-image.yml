@@ -37,7 +37,7 @@ jobs:
         uses: docker/metadata-action@v2
         with:
           images: |
-            sanjalinagare57/nginx
+            sanjalinagare57/
             ghcr.io/${{ github.repository }}
       
       - name: Build and push Docker images
