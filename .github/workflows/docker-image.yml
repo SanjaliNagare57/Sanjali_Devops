@@ -23,7 +23,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         dockerfile: Dockerfile
-#         repository: my/repository
+        repository: Sanjali57/next
         tags: latest, ${{ github.run_number }}
         
 
