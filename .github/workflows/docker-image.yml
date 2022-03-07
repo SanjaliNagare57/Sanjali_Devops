@@ -37,7 +37,7 @@ jobs:
         uses: docker/metadata-action@v2
         with:
           images: |
-            my-docker-hub-namespace/my-docker-hub-repository
+            my-docker-hub-namespace/sanjalinagare57
             ghcr.io/${{ github.repository }}
       
       - name: Build and push Docker images
