@@ -1,5 +1,5 @@
 name: learn-github-actions
-on: main
+on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
